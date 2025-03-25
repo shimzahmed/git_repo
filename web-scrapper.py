@@ -34,10 +34,6 @@ def scrape_daraz_products(url):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# URL of a kid-friendly website (replace with a real URL)
-url = "https://kids.nationalgeographic.com/"  # Example website
-scrape_titles(url)
-
 # URL of a Daraz.pk category or search page
 url = "https://www.daraz.pk/catalog/?q=mobile"  # Example: Search for "mobile"
 scrape_daraz_products(url)
